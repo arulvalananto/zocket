@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e0aea22b.chunk.css",
+    "main.js": "/static/js/main.2a36edc0.chunk.js",
+    "main.js.map": "/static/js/main.2a36edc0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3d4fb9e3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3d4fb9e3.js.map",
+    "static/js/2.684104a6.chunk.js": "/static/js/2.684104a6.chunk.js",
+    "static/js/2.684104a6.chunk.js.map": "/static/js/2.684104a6.chunk.js.map",
+    "static/js/3.9e519e0c.chunk.js": "/static/js/3.9e519e0c.chunk.js",
+    "static/js/3.9e519e0c.chunk.js.map": "/static/js/3.9e519e0c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.e0aea22b.chunk.css.map": "/static/css/main.e0aea22b.chunk.css.map",
+    "static/js/2.684104a6.chunk.js.LICENSE.txt": "/static/js/2.684104a6.chunk.js.LICENSE.txt",
+    "static/media/FirstToKnow.styles.css": "/static/media/Polygon2.73ca19e7.svg",
+    "static/media/Facebook.9f04159e.svg": "/static/media/Facebook.9f04159e.svg",
+    "static/media/Google.9e6c23d6.svg": "/static/media/Google.9e6c23d6.svg",
+    "static/media/Instagram.ef3a3ea5.svg": "/static/media/Instagram.ef3a3ea5.svg",
+    "static/media/Main.styles.css": "/static/media/Polygon1.73ca19e7.svg",
+    "static/media/Zocket-logo.52010916.svg": "/static/media/Zocket-logo.52010916.svg",
+    "static/media/envelope.82e837ba.svg": "/static/media/envelope.82e837ba.svg",
+    "static/media/Testimonials.styles.css": "/static/media/quote.a35b7f11.svg",
+    "static/media/showcase_image.a833c320.svg": "/static/media/showcase_image.a833c320.svg",
+    "static/media/whyus-1.9305e9cf.svg": "/static/media/whyus-1.9305e9cf.svg",
+    "static/media/whyus-2.7818b382.svg": "/static/media/whyus-2.7818b382.svg",
+    "static/media/whyus-3.aec55a00.svg": "/static/media/whyus-3.aec55a00.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3d4fb9e3.js",
+    "static/js/2.684104a6.chunk.js",
+    "static/css/main.e0aea22b.chunk.css",
+    "static/js/main.2a36edc0.chunk.js"
+  ]
+}

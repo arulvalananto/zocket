@@ -1,0 +1,46 @@
+.alert {
+  position: fixed;
+  z-index: 100;
+  left: 40%;
+}
+.alert__container {
+  background: #fff;
+  width: 300px;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  position: absolute;
+}
+.alert__container--success {
+  box-shadow: 0 2px 4px #459f4a21;
+}
+.alert__container--failure {
+  box-shadow: 0 2px 4px #de3d311c;
+}
+.success__icon {
+  color: #459f49;
+}
+.failure__icon {
+  color: #de3d31;
+}
+.success__icon,
+.failure__icon {
+  margin-right: 0.5rem;
+}
+.alert__message {
+  font-size: 12px;
+  font-weight: 600;
+  font-family: "poppins", sans-serif;
+  flex: 0.8;
+}
+.alert__closeButton {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.alert__closeButton:hover {
+  transform: scale(1.05);
+  color: #de3d31;
+}

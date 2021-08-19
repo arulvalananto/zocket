@@ -1,0 +1,131 @@
+:root {
+  --font-family: "poppins", sans-serif;
+  --light-black: #18191f;
+  --font-weight-bold: 600;
+}
+.testimonials {
+  padding: 1rem 0;
+  margin: 3rem 0;
+}
+.testimonials__title {
+  text-align: center;
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-bold);
+  font-size: 3rem;
+  line-height: 4rem;
+  position: relative;
+  margin-bottom: 3.5rem;
+}
+.testimonials__title::after {
+  content: url("../../assets/quote.svg");
+  position: absolute;
+  top: -10px;
+  right: -25px;
+}
+.testimonials__items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  cursor: grabbing;
+}
+.testimonials__item {
+  margin-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.testimonials__itemTop {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  height: 200px;
+  z-index: 4;
+  border-radius: 10px;
+  background: #fff;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 4px rgba(15, 110, 255, 0.1);
+  position: relative;
+}
+.testimonials__itemTop::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  bottom: -15px;
+
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+
+  border-top: 10px solid #f9f9f9;
+}
+.testimonials__item:last-child {
+  margin-right: 0;
+}
+.testimonials__itemTitle {
+  font-family: var(--font-family);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  color: var(--light-black);
+  margin-bottom: 1rem;
+}
+.testimonials__itemContent {
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--light-black);
+  width: 80%;
+}
+.testimonial__itemBottom {
+  display: flex;
+  flex-direction: column;
+}
+.testimonials__itemAvatarWrapper {
+  text-align: center;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.testimonials__itemAvatarContainer {
+  background: #f7bfbe;
+  width: 47px;
+  height: 52px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.testimonials__itemAvatar {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.testimonials__itemUserName,
+.testimonials__itemUserPosition {
+  text-align: center;
+}
+.testimonials__itemUserName {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--light-black);
+  margin-top: 0.2rem;
+}
+.testimonials__itemUserPosition {
+  font-size: 14px;
+  line-height: 24px;
+  color: #474a57;
+}
+.slick-dots li button:before {
+  color: #0f6fff69;
+  font-family: var(--font-family);
+  font-size: 40px;
+  line-height: 20px;
+}
+.slick-dots li.slick-active button:before {
+  color: #0f6eff !important;
+}

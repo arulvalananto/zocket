@@ -1,0 +1,35 @@
+.success {
+  width: 1098px;
+  margin: 0 auto;
+  margin-top: 0.5rem;
+}
+.success__logo {
+  object-fit: contain;
+}
+.loading__container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.success__container {
+  margin-top: 3rem;
+  border-radius: 6px;
+  padding: 2rem;
+  background: #0f6eff;
+  color: #fff;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(15, 110, 255, 0.1);
+}
+.success__title {
+  font-family: "poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+.success__subtitle {
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 0.5rem;
+}

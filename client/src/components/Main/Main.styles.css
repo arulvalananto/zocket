@@ -1,0 +1,125 @@
+:root {
+  --font-family: "poppins", sans-serif;
+  --light-black: #18191f;
+  --font-weight-bold: 600;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.7rem;
+}
+.header__left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header__logo {
+  object-fit: contain;
+  width: 150px;
+  height: 50px;
+}
+.header__right {
+  display: flex;
+  align-items: center;
+}
+.header__navOption {
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+  margin-right: 1.5rem;
+  line-height: 20px;
+  cursor: pointer;
+}
+.header__button {
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+}
+.main {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 2rem 0;
+  margin: 5rem 0;
+}
+.main__left {
+  margin-left: 1rem;
+}
+.main__title {
+  font-size: 65px;
+  line-height: 75px;
+  font-weight: var(--font-weight-bold);
+  font-family: var(--font-family);
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  position: relative;
+}
+.main__title:after {
+  content: url("../../assets/Ellipse55.svg");
+  position: absolute;
+  top: -125px;
+  left: 200px;
+}
+.main__title:before {
+  content: url("../../assets/Polygon2.svg");
+  position: absolute;
+  top: -125px;
+  left: -125px;
+}
+.main__subtitle {
+  width: 75%;
+  line-height: 24px;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  color: #505050;
+  position: relative;
+}
+.main__subtitle::before {
+  content: url("../../assets/Ellipse53.svg");
+  position: absolute;
+  left: -135px;
+  top: -135px;
+}
+.main__form {
+  display: flex;
+  align-items: center;
+}
+.main__input {
+  background: #f4f5f4;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  border-radius: 6px 0 0 6px;
+  padding: 0.5rem 1rem;
+  border: none;
+  flex: 0.8;
+}
+.main__button {
+  box-shadow: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0 6px 6px 0;
+  font-family: var(--font-family);
+}
+.main__right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.main__rightImage {
+  width: 530px;
+  height: 361px;
+}
+.main__right::before {
+  content: url("../../assets/Ellipse57.svg");
+  position: absolute;
+  top: -50px;
+  left: -25px;
+}
+.main__right::after {
+  content: url("../../assets/Polygon1.svg");
+  position: absolute;
+  right: -50px;
+  top: 50px;
+}

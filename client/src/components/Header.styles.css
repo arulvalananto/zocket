@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.7rem;
+}
+.header__left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header__logo {
+  object-fit: contain;
+}
+.header__right {
+  display: flex;
+  align-items: center;
+}
+.header__navOption {
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+  margin-right: 1.5rem;
+  line-height: 20px;
+  cursor: pointer;
+}

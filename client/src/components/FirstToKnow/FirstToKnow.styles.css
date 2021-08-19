@@ -1,0 +1,145 @@
+:root {
+  --blue: #0f6eff;
+  --font-family: "poppins", sans-serif;
+  --font-weight-bold: 600;
+}
+.firstToKnow {
+  padding: 4rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.firstToKnow__bg {
+  background: var(--blue);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  border-radius: 6px;
+}
+.firstToKnow__bg::after {
+  content: url("../../assets/Vector1.png");
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: -85px;
+}
+.firstToKnow__bg::before {
+  content: url("../../assets/Vector2.png");
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: -85px;
+}
+.firstToKnow__container {
+  background: transparent;
+  width: 100%;
+  height: 285px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.firstToKnow__container::before {
+  content: url("../../assets/Ellipse57.svg");
+  position: absolute;
+  top: -35px;
+  left: 63%;
+}
+.firstToKnow__container::after {
+  content: url("../../assets/Ellipse55.svg");
+  position: absolute;
+  right: -85px;
+  top: 20%;
+}
+.firstToKnow__left {
+  flex: 0.45;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.firstToKnow__leftImage {
+  width: 170px;
+  height: 165px;
+}
+.firstToKnow__left::before {
+  content: url("../../assets/Polygon2.svg");
+  position: absolute;
+  top: -25px;
+  left: -100px;
+}
+.firstToKnow__left::after {
+  content: url("../../assets/Ellipse54.svg");
+  position: absolute;
+  top: 100px;
+  left: -125px;
+}
+.firstToKnow__right {
+  flex: 0.55;
+  position: relative;
+}
+.firstToKnow__right::before {
+  content: url("../../assets/Polygon2.svg");
+  position: absolute;
+  top: 235px;
+  left: 350px;
+}
+.firstToKnow__right::after {
+  content: url("../../assets/Polygon2.svg");
+  position: absolute;
+  top: 265px;
+  left: -325px;
+}
+.firstToKnow__title {
+  font-family: var(--font-family);
+  font-size: 40px;
+  line-height: 54px;
+  font-weight: var(--font-weight-bold);
+  color: #fff;
+  width: 80%;
+}
+.firstToKnow__form {
+  margin-top: 1.5rem;
+  display: flex;
+  z-index: 2;
+  position: relative;
+}
+.firstToKnow__form::before {
+  content: url("../../assets/Ellipse53.svg");
+  position: absolute;
+  top: 125px;
+  right: 50px;
+}
+.firstToKnow__form::after {
+  content: url("../../assets/Polygon2.svg");
+  position: absolute;
+  top: 0;
+  right: -100px;
+}
+.firstToKnow__input {
+  background: #f4f5f7;
+  border: none;
+  border-radius: 6px 0 0 6px;
+  padding: 1rem;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  box-shadow: none;
+  cursor: pointer;
+  flex: 0.8;
+}
+.firstToKnow__button {
+  background: #0a286b;
+  padding: 1rem;
+  border-radius: 0 6px 6px 0;
+  font-size: 14px;
+  font-weight: var(--font-weight-bold);
+  font-family: var(--font-family);
+  line-height: 20px;
+}
+.firstToKnow__button:hover {
+  background: #0a296bde;
+}

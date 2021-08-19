@@ -1,0 +1,76 @@
+:root {
+  --blue: #0f6eff;
+  --light-black: #18191f;
+  --font-family: "poppins", sans-serif;
+  --font-weight-bold: 600;
+}
+.features {
+  padding: 2rem 0;
+  margin: 5rem 0;
+}
+.features__title {
+  font-size: 48px;
+  font-family: var(--font-family);
+  line-height: 64px;
+  font-weight: var(--font-weight-bold);
+  color: var(--light-black);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.features__bottom {
+  display: flex;
+  align-items: center;
+}
+.features__card {
+  box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+  width: 350px;
+  height: 346px;
+  margin-right: 2rem;
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.features__card:last-child {
+  margin-right: 0;
+}
+.features__cardImage {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+.features__cardFeatureTitle {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: var(--light-black);
+  font-weight: var(--font-weight-bold);
+  font-family: var(--font-family);
+  margin-bottom: 0.5rem;
+}
+.features__cardFeatureContent {
+  color: var(--light-black);
+  font-size: 16px;
+  line-height: 26px;
+}
+.features__cardURL {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--blue);
+  font-size: 12px;
+  font-family: var(--font-family);
+  line-height: 16px;
+  font-weight: var(--font-weight-bold);
+  transition: 0.4s;
+  padding: 0.3rem;
+}
+
+.features__cardURL:hover {
+  text-decoration: underline;
+}
+
+.features__CardURLIcon {
+  font-weight: var(--font-weight-bold);
+  margin-left: 0.5rem;
+}
